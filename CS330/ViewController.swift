@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        //let tempBanK = MenuViewController.GlobalVariable.tempBank + GlobalVariable.safeStore
+        //let tempBank = MenuViewController.GlobalVariable.tempBank + GlobalVariable.safeStore
         //updateBank(num: tempBanK)
         
         updateBank(num: MenuViewController.GlobalVariable.tempBank)
@@ -86,8 +86,8 @@ class ViewController: UIViewController {
         }
         else{
             //print("Safecheck is false")
-            GlobalVariable.safeStore = GlobalVariable.safeStore + 1
-            //print("Safestore = \(GlobalVariable.safeStore)")
+            GlobalVariable.safeStore = GlobalVariable.safeStore + 1  //keep track of how many coins need to be added
+            print("Safestore = \(GlobalVariable.safeStore)")
             //ViewController().updateSafeStore()
         }
     }
