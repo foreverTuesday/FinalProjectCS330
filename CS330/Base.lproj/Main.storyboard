@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sHZ-pF-7Y9">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Frame-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Main Frame" id="BYZ-38-t0r" customClass="ViewController" customModule="CS330" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJc-fJ-4T0">
+                                <rect key="frame" x="110" y="190" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9hz-65-DKd"/>
+                                    <constraint firstAttribute="width" constant="100" id="CQV-f3-7en"/>
+                                </constraints>
+                                <state key="normal" image="bluex.png"/>
+                                <connections>
+                                    <action selector="mainButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7X-w5-F3o"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of clicks: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWT-EC-mm4">
+                                <rect key="frame" x="91" y="428" width="138" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bank: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsO-HL-LXR">
+                                <rect key="frame" x="136" y="308" width="48" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.65098039220000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NsO-HL-LXR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3s6-Bi-9VE"/>
+                            <constraint firstItem="xWT-EC-mm4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5hz-rE-gpx"/>
+                            <constraint firstItem="tJc-fJ-4T0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CtE-6I-Dxt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xWT-EC-mm4" secondAttribute="bottom" constant="31" id="IAy-Ft-K5p"/>
+                            <constraint firstItem="NsO-HL-LXR" firstAttribute="top" secondItem="tJc-fJ-4T0" secondAttribute="bottom" constant="18" id="bVT-lI-snz"/>
+                            <constraint firstItem="tJc-fJ-4T0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dol-jd-Aed"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Coaster Clicker" id="J5a-if-AYu">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="pox-7p-I8y">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="R8J-TH-84B">
+                                <rect key="frame" x="16" y="7" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JFB-dr-v4h" kind="show" id="2qV-It-jqV"/>
+                                </connections>
+                            </button>
+                            <connections>
+                                <action selector="menuButton:" destination="BYZ-38-t0r" id="A2d-oT-Aeg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="clickBank" destination="NsO-HL-LXR" id="e6Q-yr-ecW"/>
+                        <outlet property="clickCount" destination="xWT-EC-mm4" id="Zd3-GJ-yki"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1201.875" y="205"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="ash-2Z-p2x">
+            <objects>
+                <viewController id="JFB-dr-v4h" customClass="MenuViewController" customModule="CS330" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="agw-gq-SY6"/>
+                        <viewControllerLayoutGuide type="bottom" id="AGG-Iv-h9D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CoQ-fC-9z1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDC-lu-7sr">
+                                <rect key="frame" x="121" y="226" width="78" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Upgrade 1">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="up1:" destination="JFB-dr-v4h" eventType="touchUpInside" id="wM8-I6-eYa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bank: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDO-1n-Bx8">
+                                <rect key="frame" x="136" y="64" width="48" height="21"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.50196078430000002" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyi-fz-peA">
+                                <rect key="frame" x="121" y="280" width="78" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Upgrade 2">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="up2:" destination="JFB-dr-v4h" eventType="touchUpInside" id="x54-XK-At9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oyi-fz-peA" firstAttribute="centerX" secondItem="CoQ-fC-9z1" secondAttribute="centerX" id="44m-Bn-WcJ"/>
+                            <constraint firstItem="cDO-1n-Bx8" firstAttribute="top" secondItem="agw-gq-SY6" secondAttribute="bottom" id="Byf-Jt-caV"/>
+                            <constraint firstItem="cDO-1n-Bx8" firstAttribute="centerX" secondItem="CoQ-fC-9z1" secondAttribute="centerX" id="DdE-g7-Fg3"/>
+                            <constraint firstItem="vDC-lu-7sr" firstAttribute="centerY" secondItem="CoQ-fC-9z1" secondAttribute="centerY" id="LB3-6W-CEy"/>
+                            <constraint firstItem="oyi-fz-peA" firstAttribute="top" secondItem="vDC-lu-7sr" secondAttribute="bottom" constant="24" id="Prv-wD-Ikd"/>
+                            <constraint firstItem="vDC-lu-7sr" firstAttribute="centerX" secondItem="CoQ-fC-9z1" secondAttribute="centerX" id="bYg-el-Ona"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bankLabel" destination="cDO-1n-Bx8" id="K8A-wL-Lon"/>
+                        <outlet property="toggleUp1" destination="vDC-lu-7sr" id="CGz-NO-OSZ"/>
+                        <outlet property="toggleUp2" destination="oyi-fz-peA" id="5UU-bd-QUx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZnH-Li-ZtH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1914.375" y="205"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7cB-lG-pAT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sHZ-pF-7Y9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HXa-EB-Xeq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="u0D-LA-D3K"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c9q-5H-Uar" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="195"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Cl0-xn-h6g">
+            <objects>
+                <viewController id="PcX-aj-rEZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xru-4q-YRD"/>
+                        <viewControllerLayoutGuide type="bottom" id="6bc-gT-S2D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fSx-Hq-mcH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="316-Iv-O13" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bluex.png" width="600" height="600"/>
+    </resources>
+</document>
