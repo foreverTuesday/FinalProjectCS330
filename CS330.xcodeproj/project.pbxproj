@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C433AA5E1EBCAC5F00493D61 /* roller-coaster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C433AA5D1EBCAC5F00493D61 /* roller-coaster.jpg */; };
+		C433AA601EBCAFB300493D61 /* 10406-royalty-free-rf-clipart-illustration-greedy-blue-shark-cartoon-mascot-character-holding-a-goden-dollar-coin-vector-illustration-with-green-background-with-dollar-symbols-.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C433AA5F1EBCAFB300493D61 /* 10406-royalty-free-rf-clipart-illustration-greedy-blue-shark-cartoon-mascot-character-holding-a-goden-dollar-coin-vector-illustration-with-green-background-with-dollar-symbols-.jpg */; };
+		C433AA621EBCB15900493D61 /* 149401886454785.png in Resources */ = {isa = PBXBuildFile; fileRef = C433AA611EBCB15900493D61 /* 149401886454785.png */; };
 		C46861581E97254000BEF8EF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46861571E97254000BEF8EF /* MenuViewController.swift */; };
 		C4BCE81B1E8C717500C25035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCE81A1E8C717500C25035 /* AppDelegate.swift */; };
 		C4BCE81D1E8C717500C25035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCE81C1E8C717500C25035 /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C433AA5D1EBCAC5F00493D61 /* roller-coaster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "roller-coaster.jpg"; path = "../roller-coaster.jpg"; sourceTree = "<group>"; };
+		C433AA5F1EBCAFB300493D61 /* 10406-royalty-free-rf-clipart-illustration-greedy-blue-shark-cartoon-mascot-character-holding-a-goden-dollar-coin-vector-illustration-with-green-background-with-dollar-symbols-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "10406-royalty-free-rf-clipart-illustration-greedy-blue-shark-cartoon-mascot-character-holding-a-goden-dollar-coin-vector-illustration-with-green-background-with-dollar-symbols-.jpg"; path = "../10406-royalty-free-rf-clipart-illustration-greedy-blue-shark-cartoon-mascot-character-holding-a-goden-dollar-coin-vector-illustration-with-green-background-with-dollar-symbols-.jpg"; sourceTree = "<group>"; };
+		C433AA611EBCB15900493D61 /* 149401886454785.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 149401886454785.png; path = ../149401886454785.png; sourceTree = "<group>"; };
 		C46861571E97254000BEF8EF /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		C4BCE8171E8C717500C25035 /* CS330.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS330.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BCE81A1E8C717500C25035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +58,9 @@
 			children = (
 				C4BCE8191E8C717500C25035 /* CS330 */,
 				C4BCE8181E8C717500C25035 /* Products */,
+				C433AA611EBCB15900493D61 /* 149401886454785.png */,
+				C433AA5F1EBCAFB300493D61 /* 10406-royalty-free-rf-clipart-illustration-greedy-blue-shark-cartoon-mascot-character-holding-a-goden-dollar-coin-vector-illustration-with-green-background-with-dollar-symbols-.jpg */,
+				C433AA5D1EBCAC5F00493D61 /* roller-coaster.jpg */,
 				C4BCE82F1E8C71F400C25035 /* bluex.png */,
 				C4BCE8301E8C71F400C25035 /* greenx.png */,
 				C4BCE8311E8C71F400C25035 /* nTERbpyyc.png */,
@@ -144,11 +153,14 @@
 			files = (
 				C4BCE8361E8C71F400C25035 /* purplex.png in Resources */,
 				C4BCE8341E8C71F400C25035 /* greenx.png in Resources */,
+				C433AA601EBCAFB300493D61 /* 10406-royalty-free-rf-clipart-illustration-greedy-blue-shark-cartoon-mascot-character-holding-a-goden-dollar-coin-vector-illustration-with-green-background-with-dollar-symbols-.jpg in Resources */,
 				C4BCE8331E8C71F400C25035 /* bluex.png in Resources */,
 				C4BCE8281E8C717500C25035 /* LaunchScreen.storyboard in Resources */,
 				C4BCE8251E8C717500C25035 /* Assets.xcassets in Resources */,
+				C433AA621EBCB15900493D61 /* 149401886454785.png in Resources */,
 				C4BCE8351E8C71F400C25035 /* nTERbpyyc.png in Resources */,
 				C4BCE8201E8C717500C25035 /* Main.storyboard in Resources */,
+				C433AA5E1EBCAC5F00493D61 /* roller-coaster.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

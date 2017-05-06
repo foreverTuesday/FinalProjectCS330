@@ -21,20 +21,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="roller-coaster.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="G6b-5i-DdO">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJc-fJ-4T0">
                                 <rect key="frame" x="110" y="190" width="100" height="100"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="9hz-65-DKd"/>
                                     <constraint firstAttribute="width" constant="100" id="CQV-f3-7en"/>
                                 </constraints>
-                                <state key="normal" image="bluex.png"/>
+                                <state key="normal" image="149401886454785.png"/>
                                 <connections>
                                     <action selector="mainButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7X-w5-F3o"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of clicks: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWT-EC-mm4">
-                                <rect key="frame" x="91" y="428" width="138" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of clicks: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWT-EC-mm4">
+                                <rect key="frame" x="85.5" y="428" width="149" height="21"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -42,7 +45,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bank: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsO-HL-LXR">
                                 <rect key="frame" x="136" y="308" width="48" height="21"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.026873372495174408" green="0.15073356032371521" blue="0.57644748687744141" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -99,9 +102,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDC-lu-7sr">
-                                <rect key="frame" x="121" y="226" width="78" height="30"/>
+                                <rect key="frame" x="63" y="226" width="195" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Upgrade 1">
+                                <state key="normal" title="100 coins: Clicking power x2">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -116,30 +119,66 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyi-fz-peA">
-                                <rect key="frame" x="121" y="280" width="78" height="30"/>
+                                <rect key="frame" x="31" y="280" width="259" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Upgrade 2">
+                                <state key="normal" title="250 coins: +1 coin every 10 seconds">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="up2:" destination="JFB-dr-v4h" eventType="touchUpInside" id="x54-XK-At9"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Upgrades" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CF-yh-N9l">
+                                <rect key="frame" x="87" y="141" width="147" height="51"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="30"/>
+                                <color key="textColor" red="0.90967196226119995" green="0.72654372453689575" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNU-RK-DzI">
+                                <rect key="frame" x="33" y="385" width="253" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="500 coins: +1 coin every 5 seconds">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="up4:" destination="JFB-dr-v4h" eventType="touchUpInside" id="2ym-a0-JHF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NvZ-EF-Sp4">
+                                <rect key="frame" x="61" y="333" width="197" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="500 coins: Clicking power +1">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="up3:" destination="JFB-dr-v4h" eventType="touchUpInside" id="0Gw-Rd-J9w"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="NvZ-EF-Sp4" firstAttribute="top" secondItem="oyi-fz-peA" secondAttribute="bottom" constant="24" id="2od-qq-MgK"/>
                             <constraint firstItem="oyi-fz-peA" firstAttribute="centerX" secondItem="CoQ-fC-9z1" secondAttribute="centerX" id="44m-Bn-WcJ"/>
+                            <constraint firstItem="NvZ-EF-Sp4" firstAttribute="centerX" secondItem="CoQ-fC-9z1" secondAttribute="centerX" id="6y4-4A-RHI"/>
                             <constraint firstItem="cDO-1n-Bx8" firstAttribute="top" secondItem="agw-gq-SY6" secondAttribute="bottom" id="Byf-Jt-caV"/>
                             <constraint firstItem="cDO-1n-Bx8" firstAttribute="centerX" secondItem="CoQ-fC-9z1" secondAttribute="centerX" id="DdE-g7-Fg3"/>
+                            <constraint firstItem="tNU-RK-DzI" firstAttribute="top" secondItem="NvZ-EF-Sp4" secondAttribute="bottom" constant="24" id="Hak-VA-cXy"/>
+                            <constraint firstItem="4CF-yh-N9l" firstAttribute="top" secondItem="cDO-1n-Bx8" secondAttribute="bottom" constant="56" id="IRt-LQ-gdu"/>
                             <constraint firstItem="vDC-lu-7sr" firstAttribute="centerY" secondItem="CoQ-fC-9z1" secondAttribute="centerY" id="LB3-6W-CEy"/>
                             <constraint firstItem="oyi-fz-peA" firstAttribute="top" secondItem="vDC-lu-7sr" secondAttribute="bottom" constant="24" id="Prv-wD-Ikd"/>
+                            <constraint firstItem="tNU-RK-DzI" firstAttribute="top" secondItem="NvZ-EF-Sp4" secondAttribute="bottom" constant="24" id="Zdf-Pn-E0a"/>
                             <constraint firstItem="vDC-lu-7sr" firstAttribute="centerX" secondItem="CoQ-fC-9z1" secondAttribute="centerX" id="bYg-el-Ona"/>
+                            <constraint firstItem="4CF-yh-N9l" firstAttribute="centerX" secondItem="CoQ-fC-9z1" secondAttribute="centerX" id="rl2-LP-bo3"/>
+                            <constraint firstItem="tNU-RK-DzI" firstAttribute="centerX" secondItem="CoQ-fC-9z1" secondAttribute="centerX" id="tqy-xE-D4O"/>
+                            <constraint firstItem="NvZ-EF-Sp4" firstAttribute="top" secondItem="oyi-fz-peA" secondAttribute="bottom" constant="24" id="wqd-c2-BI5"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="bankLabel" destination="cDO-1n-Bx8" id="K8A-wL-Lon"/>
                         <outlet property="toggleUp1" destination="vDC-lu-7sr" id="CGz-NO-OSZ"/>
                         <outlet property="toggleUp2" destination="oyi-fz-peA" id="5UU-bd-QUx"/>
+                        <outlet property="toggleUp3" destination="NvZ-EF-Sp4" id="cgt-a8-B6a"/>
+                        <outlet property="toggleUp4" destination="tNU-RK-DzI" id="ebu-Kg-8gz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZnH-Li-ZtH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -183,6 +222,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bluex.png" width="600" height="600"/>
+        <image name="149401886454785.png" width="300" height="300"/>
+        <image name="roller-coaster.jpg" width="650" height="466"/>
     </resources>
 </document>
